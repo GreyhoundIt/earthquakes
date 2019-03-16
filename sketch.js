@@ -17,7 +17,7 @@ function preload() {
   mapimg = loadImage('https://api.mapbox.com/styles/v1/mapbox/dark-v9/static/' +
     clon + ',' + clat + ',' + zoom + '/' +
     ww + 'x' + hh +
-    `?access_token=${process.env.MAP_API}`);
+    `?access_token=pk.eyJ1IjoiZ3JleWhvdW5kaXQiLCJhIjoiY2p0Ym8xNmthMGh1eTQ0cGZzMTBtc253NCJ9.AOlt3TNM7rkrTVD2Lec1Xw`);
 
     // earthquakes = loadStrings("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.csv");
     // earthquakes = loadStrings("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.csv");
